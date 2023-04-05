@@ -50,31 +50,6 @@ document.addEventListener('DOMContentLoaded', function () {
     ===================================================== */
     new universalParallax().init();
 
-    /* =====================================================
-        STATISTICS COUNTER
-    ===================================================== */
-    function countup() {
-        var options = {
-            useEasing: true,
-            useGrouping: true,
-            duration: 4,
-        };
-
-        var counter1 = new CountUp('counter1', 0, 120, 0, options);
-        var counter2 = new CountUp('counter2', 0, 50, 0, options);
-        var counter3 = new CountUp('counter3', 0, 320, 0, options);
-        var counter4 = new CountUp('counter4', 0, 333, 0, options);
-
-        if (!counter1.error) {
-            counter1.start();
-            counter2.start();
-            counter3.start();
-            counter4.start();
-        } else {
-            console.error('error');
-        }
-    }
-
      /* =====================================================
        SCROLLING LINKS W/ OFFSET
     ===================================================== */
