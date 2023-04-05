@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="./img/icon.webp">
+    <script src="//unpkg.byted-static.com/xgplayer/2.31.6/browser/index.js" charset="utf-8"></script>
   </head>
   <body class="scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
     <nav class="navbar navbar-expand-lg navbar-light py-4 py-lg-0 fixed-top bg-white border-bottom">
@@ -261,7 +262,28 @@
             </div>
             <div class="modal-body text-center px-lg-5 pb-lg-5 pt-lg-3">
               <h2 class="heading mb-5" id="item1ModalLabel">暴力(利)的Instagram精准广告投放</h2>
-              <p>暴力(利)的Instagram精准广告投放</p><a class="btn btn-outline-primary me-3 my-1" href="#!"> <i class="fas fa-globe-americas me-2"></i>Visit website</a><a class="btn btn-outline-primary" href="#!"> <i class="fas fa-download me-2"></i>Download case study</a>
+              <p>暴力(利)的Instagram精准广告投放</p>
+              <div id="mse"></div>
+              <script>
+                let player = new Player({
+              "id": "mse",
+              "url": "https://cdn.jsdelivr.net/gh/ado8899/autosocial@master/video/lession-1.mp4",
+              "playsinline": true,
+              "whitelist": [
+                  ""
+              ],
+              "autoplay": false,
+              "playbackRate": [
+                  null
+              ],
+              "screenShot": true,
+              "pip": true,
+              "download": true,
+              "closeVideoClick": true,
+              "width": null,
+              "height": 500
+                });
+              </script>
             </div>
           </div>
         </div>
@@ -348,7 +370,7 @@
             <form>
               <div class="row gy-3">
                 <div class="col-lg-12">
-                  <h4><strong>联系人:杜先生</strong></h4>
+                  <h4><strong>联系人:Mr.杜</strong></h4>
                 </div>
                 <div class="col-lg-6">
                   <h5><strong>Email:support@ctnis.com</strong></h3>
